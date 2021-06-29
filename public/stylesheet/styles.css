@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 ::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px ;
-	border-radius: 10px;
-	background-color:whitesmoke;
+  background-color:whitesmoke;
 }
 
 ::-webkit-scrollbar
@@ -16,7 +14,7 @@
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #001f54;
+	background-color: #85b2ff;
 }
 body {
   overflow-x: hidden;
@@ -58,7 +56,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 3rem;
   font-weight: 600;
-  color: white;
+  color: black;
 }
 
 .svg-inline--fa.fa-w-14{
@@ -97,31 +95,31 @@ outline: 5px auto -webkit-focusring-color;
 }
 
 .navbar-nav .nav-link {
-  color: #FFF;
+  color: black;
   padding-top: 0.8rem;
 }
 
 .navbar-nav .nav-link.active,.navbar-nav .nav-link:hover{
-  color: #FFF;
+  color: black;
   background-color: #001f5469;
   padding: 15px;
   transition: all 1s ease;
 }
 
 .navbar.solid {
-  background: rgba(0, 0, 0, 0.7)!important;
+  background: rgba(255, 255, 255, 0.925)!important;
   transition: background-color 1s ease 0s;
 }
 
 i.fas.fa-bars {
-  color: #FFF;
+  color: black;
   font-size: 30px;
 }
 
 /*============ LANDING PAGE IMAGE ============*/
 .home-inner {
   background-size: contain;
-  background-image: url('/public/images/Lander-01.png') ;
+  background-image: url('../images/Lander-01.png') ;
 }
 
 .caption {
@@ -133,21 +131,21 @@ i.fas.fa-bars {
 }
 
 .caption h1{
-  color: #FFF;
+  color: black;
   font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.5rem #000;
+  text-shadow: 0.1rem 0.1rem 0.5rem rgba(20, 20, 20, 0.795);
   padding-bottom: 1rem;
 }
 
 .caption h3{
-  color: #FFF;
+  color: black;
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 400;
-  text-shadow: 0.1rem 0.1rem 0.5rem #000;
+  text-shadow: 0.1rem 0.1rem 0.5rem rgba(20, 20, 20, 0.795);
   padding-bottom: 2rem;
 }
 .btn-lg {
@@ -256,7 +254,15 @@ margin-right: 0px!important;
     overflow-x: hidden;
     overflow-y: hidden;
   }
+  .landing {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Change height of landing page image. */
+    display: table;
+    z-index: -1;
+  }
 }
+
 .carousel-item img{
   width: 90vw;
   height: auto;
@@ -735,7 +741,7 @@ h3.heading-white{
 
 /*============ FIXED BACKGROUND IMAGE DARK ============*/
 #fixed {
-  background-image: url('/public/images/darkbg.jpg');
+  background-image: url('../images/darkbg.jpg');
   z-index: -1;
 }
 
@@ -779,7 +785,7 @@ img.example-image {
   overflow: hidden;
 }
 .btnfos {
-  color: #fff;
+  color: black;
   cursor: pointer;
   display: block;
   font-size: 16px;
@@ -812,13 +818,13 @@ img.example-image {
 }
 .btnfos-1 rect {
   fill: none;
-  stroke: #fff;
+  stroke: black;
   stroke-width: 1;
   stroke-dasharray: 422, 0;
 }
 
 .btnfos-1:hover {
-  color: white;
+  color: black;
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: 900;
@@ -839,7 +845,7 @@ img.example-image {
   transition: transform 0.7s ease;
   overflow: hidden;
   position: relative;
-  height: 42rem;
+  height: 45rem;
 }
 
 .pricing-column:hover {
@@ -932,13 +938,13 @@ blockquote::before {
 
 /*============ CONTACT SECTION ============*/
 footer {
-  background: url('/public/images/footer-01.png');
+  background: url('../images/footer-01.png');
   background-size: contain;
   color: #FFF;
 }
 
 footer .row {
-  background-color: rgba(38, 39, 41, 0.877);
+  background-color: #131313bb;
   padding: 1rem 2rem 3rem;
 }
 
@@ -1100,7 +1106,7 @@ a.top-scroll:hover {
   }
 
   footer {
-    background: url('/public/images/footer-01.png');
+    background: url('../images/footer-01.png');
   }
 
   .clients img {

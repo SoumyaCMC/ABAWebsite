@@ -6,21 +6,10 @@ $(document).ready(function() { //when document(DOM) loads completely.
     // checks if window is scrolled more than 300px, adds/removes solid class
     if($(this).scrollTop() >= 0) {
         $('.navbar').addClass('solid'); //add class 'solid' in any element which has class 'navbar'
-    } else {
-        $('.navbar').removeClass('solid'); //remove class 'solid' in any element which has class 'navbar'
     }
   });
 });
 
-/*========== ADD NAV BACKGROUND ON CLICK ==========*/
-
-$(document).ready(function () { //when document loads completely.
-$('#hamburguer').click(function() {
-if($(window).scrollTop() === 0){
-$('.navbar').toggleClass('solid');
-}
-});
-});
 
 /*========== CLOSE MOBILE NAV ON CLICK ==========*/
 
@@ -128,9 +117,9 @@ function changeText1(){
   });  
 };
 
-var url1= "public/images/Lander-02.jpg";
-var url2="public/images/ibrahim-boran-q5BnGgt2Y_E-unsplash.jpg";
-var url0="public/images/Lander-01.png";
+var url1= "../images/Lander-02.jpg";
+var url2="../images/ibrahim-boran-q5BnGgt2Y_E-unsplash.jpg";
+var url0="../images/Lander-01.png";
 function changeBG(){
   $("#homein").delay(5000).animate({opacity:0},function(){
       $(this).css("background-image", "url("+url1+")").animate({opacity:1},function(){
@@ -148,6 +137,7 @@ function changeBG(){
   
 };
 changeBG();
+
 
 function changeText2(){
   $("#changetext2").delay(5000).animate({opacity:0},function(){
@@ -173,7 +163,7 @@ function changeButton(){
           $(this).delay(5000).animate({opacity:0},function(){
             $("#hbuttonLink").attr("href", "http://www.google.com/");
               $(this).text("Learn More").animate({opacity:1},function(){
-                $("#hbuttonLink").attr("href", "/about.html");
+                $("#hbuttonLink").attr("href", "/about");
                   $(this).delay(5000).animate({opacity:0},function(){
                       $(this).text("About Us").animate({opacity:1},function(){
                           changeButton();                           
