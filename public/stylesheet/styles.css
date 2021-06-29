@@ -116,10 +116,16 @@ i.fas.fa-bars {
   font-size: 30px;
 }
 
+#player{
+  width: 115% ; height:115%; margin-top: -80px;
+}
+
+
+
 /*============ LANDING PAGE IMAGE ============*/
 .home-inner {
   background-size: contain;
-  background-image: url('../images/Lander-01.png') ;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/ababiotech-7d494.appspot.com/o/Lander-01.png?alt=media&token=f3f8d624-d040-414e-a822-ccef77925dae') ;
 }
 
 .caption {
@@ -254,6 +260,10 @@ margin-right: 0px!important;
     overflow-x: hidden;
     overflow-y: hidden;
   }
+  
+#player{
+  width: 77vw ; height:auto; margin-top: -80px;
+}
   .landing {
     position: relative;
     width: 100%;

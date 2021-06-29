@@ -117,9 +117,9 @@ function changeText1(){
   });  
 };
 
-var url1= "../images/Lander-02.jpg";
-var url2="../images/ibrahim-boran-q5BnGgt2Y_E-unsplash.jpg";
-var url0="../images/Lander-01.png";
+var url1= "https://firebasestorage.googleapis.com/v0/b/ababiotech-7d494.appspot.com/o/Lander-02.jpg?alt=media&token=3c7a4c76-c720-458b-8e49-5d9f8432047e";
+var url2="https://firebasestorage.googleapis.com/v0/b/ababiotech-7d494.appspot.com/o/ibrahim-boran-q5BnGgt2Y_E-unsplash.jpg?alt=media&token=7a948c02-3f0c-4d53-a41e-6f5ec592eb4c";
+var url0="https://firebasestorage.googleapis.com/v0/b/ababiotech-7d494.appspot.com/o/Lander-01.png?alt=media&token=f3f8d624-d040-414e-a822-ccef77925dae";
 function changeBG(){
   $("#homein").delay(5000).animate({opacity:0},function(){
       $(this).css("background-image", "url("+url1+")").animate({opacity:1},function(){
