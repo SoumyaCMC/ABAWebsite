@@ -173,7 +173,7 @@ function changeButton(){
           $(this).delay(5000).animate({opacity:0},function(){
             $("#hbuttonLink").attr("href", "http://www.google.com/");
               $(this).text("Learn More").animate({opacity:1},function(){
-                $("#hbuttonLink").attr("href", "/about");
+                $("#hbuttonLink").attr("href", "/about.html");
                   $(this).delay(5000).animate({opacity:0},function(){
                       $(this).text("About Us").animate({opacity:1},function(){
                           changeButton();                           
