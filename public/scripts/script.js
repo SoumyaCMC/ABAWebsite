@@ -128,9 +128,9 @@ function changeText1(){
   });  
 };
 
-var url1= "/public/images/Lander-02.jpg";
-var url2="/public/images/ibrahim-boran-q5BnGgt2Y_E-unsplash.jpg";
-var url0="/public/images/Lander-01.png";
+var url1= "public/images/Lander-02.jpg";
+var url2="public/images/ibrahim-boran-q5BnGgt2Y_E-unsplash.jpg";
+var url0="public/images/Lander-01.png";
 function changeBG(){
   $("#homein").delay(5000).animate({opacity:0},function(){
       $(this).css("background-image", "url("+url1+")").animate({opacity:1},function(){
