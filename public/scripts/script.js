@@ -145,7 +145,7 @@ function changeText2(){
           $(this).delay(5000).animate({opacity:0},function(){
               $(this).text("A few Lines on the Subtopic 2").animate({opacity:1},function(){
                   $(this).delay(5000).animate({opacity:0},function(){
-                      $(this).text("AN ISO 9001:2015 CERTIFIED COMPANY").animate({opacity:1},function(){
+                      $(this).text("A Complete Solution for Lab").animate({opacity:1},function(){
                           changeText2();                           
                       });
                   });
@@ -163,7 +163,7 @@ function changeButton(){
           $(this).delay(5000).animate({opacity:0},function(){
             $("#hbuttonLink").attr("href", "http://www.google.com/");
               $(this).text("Learn More").animate({opacity:1},function(){
-                $("#hbuttonLink").attr("href", "/about");
+                $("#hbuttonLink").attr("href", "./about.html");
                   $(this).delay(5000).animate({opacity:0},function(){
                       $(this).text("About Us").animate({opacity:1},function(){
                           changeButton();                           
