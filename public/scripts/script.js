@@ -103,7 +103,7 @@ $('.top-scroll').fadeOut(); //hide element with class 'top-scroll'; opacity decr
 });
 function changeText1(){
   $("#changetext1").delay(5000).animate({opacity:0},function(){
-      $(this).text("Next Gen Sequencing").animate({opacity:1},function(){
+      $(this).text("Next Generation Sequencing").animate({opacity:1},function(){
           $(this).delay(5000).animate({opacity:0},function(){
               $(this).text("Gene Synthesis").animate({opacity:1},function(){
                   $(this).delay(5000).animate({opacity:0},function(){
