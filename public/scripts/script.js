@@ -103,7 +103,7 @@ $('.top-scroll').fadeOut(); //hide element with class 'top-scroll'; opacity decr
 });
 function changeText1(){
   $("#changetext1").delay(5000).animate({opacity:0},function(){
-      $(this).text("NGS Services").animate({opacity:1},function(){
+      $(this).text("Next Gen Sequencing").animate({opacity:1},function(){
           $(this).delay(5000).animate({opacity:0},function(){
               $(this).text("Gene Synthesis").animate({opacity:1},function(){
                   $(this).delay(5000).animate({opacity:0},function(){
@@ -141,9 +141,9 @@ changeBG();
 
 function changeText2(){
   $("#changetext2").delay(5000).animate({opacity:0},function(){
-      $(this).text("DNA sequencing technology which has revolutionised genomic research").animate({opacity:1},function(){
+      $(this).text("Technology Revolutionizing genomic research").animate({opacity:1},function(){
           $(this).delay(5000).animate({opacity:0},function(){
-              $(this).text("Gene synthesis enables powerful solutions for molecular cloning").animate({opacity:1},function(){
+              $(this).text("powerful solutions for molecular cloning").animate({opacity:1},function(){
                   $(this).delay(5000).animate({opacity:0},function(){
                       $(this).text("A Complete Solution for Lab").animate({opacity:1},function(){
                           changeText2();                           
@@ -155,16 +155,16 @@ function changeText2(){
   });
   
 };
+
 function changeButton(){
   $("#homebutton").delay(5000).animate({opacity:0},function(){
-    $("#hbuttonLink").attr("href", "./about.html");
+    $("#hbuttonLink").attr("href", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3841808/");
       $(this).text("Learn More").animate({opacity:1},function(){
-        $("#hbuttonLink").attr("href", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3841808//");
           $(this).delay(5000).animate({opacity:0},function(){
             $("#hbuttonLink").attr("href", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5204324/");
               $(this).text("Learn More").animate({opacity:1},function(){
-                $("#hbuttonLink").attr("href", "./about.html");
                   $(this).delay(5000).animate({opacity:0},function(){
+                    $("#hbuttonLink").attr("href", "./about.html");
                       $(this).text("About Us").animate({opacity:1},function(){
                           changeButton();                           
                       });
